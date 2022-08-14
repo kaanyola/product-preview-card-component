@@ -1,0 +1,86 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+
+.card {
+    width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 14px;
+    background-color: white;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+}
+
+.picture {
+    border-radius: 14px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image{
+    content: url(./images/image-product-desktop.jpg);
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.infos{
+    padding: 24px;
+    color: hsl(228, 12%, 48%);
+}
+
+.infos *{
+    margin-bottom: 30px;
+}
+
+.product-type{
+    letter-spacing: 8px;
+    font-size: 14px;
+}
+
+.product-title{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 56px;
+    font-family: "Montserrat";
+    line-height: 46px;
+}
+
+.detail{
+    font-size: 14px;
+    line-height: 30px
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+}
+
+.current-price{
+    color: hsl(158, 36%, 37%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.add-card-button{
+    margin: 0;
+}
+
+.add-card-button button{
+    width: 20rem;
+    background-color: hsl(158, 36%, 37%);
+    height: 3rem;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+
+.add-card-button button:hover{
+    background-color: rgb(4, 66, 43);
+    cursor: pointer;
+}
+
