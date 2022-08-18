@@ -98,7 +98,7 @@ body{
     .card{
         flex-direction: column;
         width: 20rem;
-        height: 40rem;
+        height: 35rem;
     }
     .picture{
         flex-grow: 1;
