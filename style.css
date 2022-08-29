@@ -105,7 +105,7 @@ body{
     }
     .image{
         content: url(./images/image-product-mobile.jpg);
-        width: 10rem; 
+        width: 12rem; 
         object-fit: contain;
         border-radius: 14px 14px 0 0;
     }
